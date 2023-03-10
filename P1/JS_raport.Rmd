@@ -1,0 +1,52 @@
+---
+title: "DEV_1"
+author: "Jakub Swistak"
+date: "2023-03-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("~/Documents/visualization_recap.R")
+
+```
+
+## Data visualization recap - Vinho Verde
+
+I have created several graphs to visualize the data.
+
+
+### Investigating the distribution of alcohol variable
+```{r echo=FALSE}
+a()
+
+```
+
+
+### Comparing the distribution of alcohol variable between two types of wine i.e. red and white
+```{r echo=FALSE}
+b()
+
+```
+
+
+
+### Comparing the distribution of alcohol variable in each of possible quality group defined by response variable
+```{r echo=FALSE}
+c_func()
+
+```
+
+### Percentage of red and white wines within each quality group
+```{r echo=FALSE}
+d()
+
+```
+
+
+### Investigating the relationship between variables describing acidity of the wines
+
+```{r echo=FALSE}
+e()
+
+```
